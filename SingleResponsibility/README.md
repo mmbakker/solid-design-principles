@@ -11,3 +11,7 @@ Write a module that, given objects implementing `TyreInterface` and `SteeringWhe
 a new object called `Car`.
 
 Additional requirements are that a car must have one steering wheel and four tires.
+
+## Done?
+
+Share your code. Give a couple of examples where you have applied the single-responsibility principle.

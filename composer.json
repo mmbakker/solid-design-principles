@@ -1,0 +1,12 @@
+{
+    "name": "mmbakker/solid-design-principles",
+    "authors": [
+        {
+            "name": "Michiel Bakker",
+            "email": "jaffog@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    }
+}

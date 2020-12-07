@@ -7,6 +7,7 @@ In short:
 
 ## Assignment
 
-Write a module that, given the objects `Tyre` and `SteeringWheel`, constructs a new object called `Car`.
+Write a module that, given objects implementing `TyreInterface` and `SteeringWheelInterface`, constructs
+a new object called `Car`.
 
 Additional requirements are that a car must have one steering wheel and four tires.

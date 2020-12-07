@@ -7,4 +7,6 @@ In short:
 
 ## Assignment
 
-Write a module that, given an entity `Car`, takes the 
+Write a module that, given the objects `Tyre` and `SteeringWheel`, constructs a new object called `Car`.
+
+Additional requirements are that a car must have one steering wheel and four tires.

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MichielBakker\SingleResponsibility;
+namespace MichielBakker\SolidDesignPrinciples\SingleResponsibility;
 
 interface TyreInterface
 {

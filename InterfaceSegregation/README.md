@@ -11,6 +11,7 @@ In short:
 
 
 
+
 In real life, a lot of objects or items belong to the same group, while they are themselves different from each other.
 Apples, bananas, and oranges are all fruits. Cats, dogs, and cows are all mammals. You get the idea.
 

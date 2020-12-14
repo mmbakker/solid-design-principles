@@ -2,7 +2,7 @@
 
 namespace MMBakker\SolidDesignPrinciples\SingleResponsibility;
 
-interface TyreInterface
+interface WheelInterface
 {
     public function roll(int $amount): void;
 

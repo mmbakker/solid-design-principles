@@ -2,20 +2,20 @@
 
 namespace MMBakker\SolidDesignPrinciples\InterfaceSegregation\GameEntity;
 
-class PlayerCharacter implements GameEntityInterface
+class Wood implements GameEntityInterface
 {
     public function grow(): void
     {
-        echo "Player is growing\n";
+        echo "Wood is growing\n";
     }
 
     public function attack(): void
     {
-        echo "Player is attacking\n";
+        echo "A tree cannot attack\n";
     }
 
     public function run(): void
     {
-        echo "Player is running\n";
+        echo "A tree cannot run\n";
     }
 }

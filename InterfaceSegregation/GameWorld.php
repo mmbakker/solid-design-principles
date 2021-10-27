@@ -3,8 +3,8 @@
 namespace MMBakker\SolidDesignPrinciples\InterfaceSegregation;
 
 use MMBakker\SolidDesignPrinciples\InterfaceSegregation\GameEntity\GameEntityInterface;
-use MMBakker\SolidDesignPrinciples\InterfaceSegregation\GameEntity\PlayerCharacter;
-use MMBakker\SolidDesignPrinciples\InterfaceSegregation\GameEntity\Tree;
+use MMBakker\SolidDesignPrinciples\InterfaceSegregation\GameEntity\Player;
+use MMBakker\SolidDesignPrinciples\InterfaceSegregation\GameEntity\Wood;
 
 class GameWorld
 {
@@ -13,9 +13,9 @@ class GameWorld
 
     public function __construct()
     {
-        $this->entities[] = new PlayerCharacter();
-        $this->entities[] = new Tree();
-        $this->entities[] = new Tree();
+        $this->entities[] = new Player();
+        $this->entities[] = new Wood();
+        $this->entities[] = new Wood();
 
         // have all entities grow and run.
         foreach ($this->entities as $entity) {

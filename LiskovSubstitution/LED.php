@@ -2,9 +2,6 @@
 
 namespace MMBakker\SolidDesignPrinciples\LiskovSubstitution;
 
-/**
- * "LED"
- */
 class LED
 {
     public function printName(): void

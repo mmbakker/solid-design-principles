@@ -2,9 +2,6 @@
 
 namespace MMBakker\SolidDesignPrinciples\LiskovSubstitution;
 
-/**
- * "gloeilamp"
- */
 class Incandescent
 {
     public function printName(): void

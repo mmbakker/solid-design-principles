@@ -2,9 +2,6 @@
 
 namespace MMBakker\SolidDesignPrinciples\LiskovSubstitution;
 
-/**
- * "spaarlamp"
- */
 class CFL
 {
     public function printName(): void
